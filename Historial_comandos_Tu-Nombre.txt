@@ -1,0 +1,63 @@
+cd
+mkdir repogit
+cd repogit
+git clone git@github.com:PabloSantiagoConde/TP_AySO.git
+cd TP_AySO/
+pwd
+ls -l
+cat datos_usuario.txt 
+git commit  “feat: Añadiendo información de CPU”
+git commit -m  “feat: Añadiendo información de CPU sobre datos_usuarios.txt”
+git add .
+git commit -m  “feat: Añadiendo información de CPU”
+git add . 
+git commit -m  “feat: Añadiendo información de CPU"
+
+q
+git commit -m  “feat: Añadiendo información de CPU"
+git add .
+git commit -m “feat: Añadiendo información de CPU”
+git add . 
+git commit -m "feat: añadiendo informacion de CPU"
+grep -v "nologin" /etc/passwd | head -n10
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7
+grep -v "nologin" /etc/passwd | head -n10 | sort -t: -k7 > lista_ordenada
+ls
+cat lista_ordenada
+git add .
+git commit -m "ADD: Listado de usuarios ordenada" 
+echo "El comando que se usa para dump traffic es tcpdump" > comando_dump_net
+ls
+"-w (archivo): guarda la captura para ser analizada mas tarde." >> comando_dump_net 
+echo "-w (archivo): guarda la captura para ser analizada mas tarde." >> comando_dump_net 
+ls
+cat comando_dump_net 
+git add .
+git commit -m "ADD: Comando para capturar y analizar el tráfico de red"
+cat << EOF >> README.md
+Alumno: Pablo Conde
+División: 304
+Turno: Noche
+EOF
+
+cat README.md 
+cat << EOF >> README.md
+Alumno: Pablo Conde
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md 
+rm README.md
+echo "" > README.md
+cat << EOF >> README.md
+Alumno: Pablo Conde
+Division: 318
+Turno: Noche
+EOF
+
+cat README.md 
+git add. 
+git add .
+git commit -m "docs: informacion de alumno, division y turno al README."
+history -a
